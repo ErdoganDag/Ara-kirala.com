@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+ 
+ 
+ 
+ 
+.bg-a{
+	background-color:#00a83c;
+}
+.nav-link{
+	font-size: 22px;
+	font-family: 'Ubuntu', sans-serif;
+}
+ 
+.nav-link:hover{
+	color: white!important;
+	transition:all .5s; 
+}
+
+.yazi{
+	font-family: 'Pacifico', cursive;
+    color:white !important;
+    transition: all 2s;
+}
+
+.yazi:hover{
+    font-size: 42px !important;
+    color: wheat !important;
+}
+ 
+.ustten{
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+.modal h4,.modal-body{
+    color: black;
+}
+
+footer{
+    background-color: #00d24c;
+    color: white;
+    height: 215px;
+}
+
+.sol{
+    width: 50%;
+    
+}
+
+.sag{
+    width: 50%;
+    
+}
+
+.copyright{
+    background-color: #00531e;
+    height: 40px;
+    color: white;
+    padding: 5px;
+}
+
+@media screen and (max-width:700px) {
+    footer{
+        height: 430px;
+    }
+    .sol{
+        width: 100%;
+        float: left;
+        
+    }
+    .sag{
+        width: 100%;
+        float: left;
+        
+    }
+}
